@@ -1,0 +1,40 @@
+
+<p>add-emp works!</p>
+
+<form [formGroup1="empForm" (ngSubmit)="onSubmit()"> 
+<label for="id">Employee Number Id: </label>
+ <input id="id" type="text" formControlName="id">
+
+<br>
+
+<label for="empName">Employee Name: </label>
+
+<input id="empName" type="text" formControlName="empName">
+
+<br>
+
+<label for="empSal">Employee Salary</label>
+
+<input id="empSal" type="text" formControlName="empSal">
+
+<br
+
+|
+
+<button type="submit" (click)="updateEmp()">update Employee </button>
+
+<br>
+
+<br>
+
+<button type="submit" (click)="deleteEmp()">delete Employee</button>
+
+<br>
+
+<br>
+
+</form>
+
+<button type="submit">Add New Employee</button> <br>
+
+<br>

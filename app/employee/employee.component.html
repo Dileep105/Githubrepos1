@@ -1,0 +1,23 @@
+<p>employee works!</p>
+
+<!-- 
+<div>
+    {{empNo}} <br> {{empName}} <br> {{empSal}}
+</div> -->
+
+<table border ="3">
+    <thead>
+        <tr>
+            <th>Employee Id</th>
+            <th>Employee Name</th>
+            <th>Employee Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of empList;">
+            <td>{{e.empNo}}</td>
+            <td>{{e.empName}}</td>
+            <td>{{e.empSal}}</td>
+        </tr>
+    </tbody>
+</table>
